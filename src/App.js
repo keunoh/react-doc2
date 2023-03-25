@@ -1,7 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
 
 function App() {
+  console.log(Math.sin(3.5));
+  var r = 9;
+  var circumference = 2 * Math.PI * r;
+  console.log(circumference);
+
+  parseInt("123", 10);
+  parseInt("010", 10);
+
   return (
     <div className="App">
       <header className="App-header">
